@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#header{
+    background-image: url(./image/background-header.svg);
+    color:aliceblue;
+}
+
+#information-menu{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#logo{
+    margin: 50px 0 0 75px;
+}
+
+#title-header{
+    margin: 75px 0 20px 150px;
+}
+
+#p-header{
+    margin: 50px 0 0 150px;
+    padding-bottom: 100px;
+}
+
+.icone{
+    margin: 50px 0 50px 100px;
+    padding: 25px;
+}
+
+.text-information{
+    display: flex;
+    align-items: center;
+}
+
+#video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#title-video{
+    color:#247BA0;
+    margin: 50px 0 0 0;
+}
+
+#video-youtube{
+    margin: 50px 25px 50px 100px;
+}
